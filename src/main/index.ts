@@ -24,7 +24,6 @@ const createWindow = (): void => {
     fullscreen: true,
     webPreferences: {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
-      nodeIntegration: true,
     },
   })
   // and load the index.html of the app.
